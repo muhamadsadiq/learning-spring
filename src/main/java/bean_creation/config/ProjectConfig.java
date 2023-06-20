@@ -4,6 +4,7 @@ package bean_creation.config;
 import bean_creation.beans.Vehicle;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Primary;
 
 @Configuration
 public class ProjectConfig {
@@ -29,7 +30,9 @@ public class ProjectConfig {
     /*
      * in this bean we provide a custom name for the bean
      * you can also use name property or just type the custom name
+     * by adding the primary annotation we tell the spring to choose this bean when we don't specify the name
     */
+    @Primary
     @Bean(value = "BMW")
     Vehicle vehicle2(){
         Vehicle vehicle = new Vehicle();

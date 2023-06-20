@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6d0161c-dd50-457d-aed6-d452a953d393" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bean_creation/beans/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bean_creation/config/ProjectConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bean_creation/main/Main.java" afterDir="false" />
+    <list default="true" id="a6d0161c-dd50-457d-aed6-d452a953d393" name="Changes" comment="learning spring beans">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bean_creation/config/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_creation/config/ProjectConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bean_creation/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_creation/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,8 +94,16 @@
       <workItem from="1687107179474" duration="618000" />
       <workItem from="1687107814299" duration="62000" />
       <workItem from="1687107894988" duration="552000" />
-      <workItem from="1687257878236" duration="1870000" />
+      <workItem from="1687257878236" duration="3246000" />
     </task>
+    <task id="LOCAL-00001" summary="learning spring beans">
+      <created>1687260225348</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687260225349</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,5 +119,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="learning spring beans" />
+    <option name="LAST_COMMIT_MESSAGE" value="learning spring beans" />
   </component>
 </project>

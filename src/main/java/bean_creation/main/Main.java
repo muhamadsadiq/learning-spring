@@ -8,9 +8,11 @@ public class Main {
 
     public static void main(String[] args) {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(ProjectConfig.class);
-
-//        Vehicle vehicle = context.getBean(Vehicle.class);
-//        System.out.println(vehicle.getName());
+       /*
+        * the context will return the primary bean because we have multiple bean with the same datatype
+       */
+        Vehicle vehicle = context.getBean(Vehicle.class);
+        System.out.println(vehicle.getName());
 
         Vehicle vehicle1 = context.getBean("vehicle1",Vehicle.class);
         System.out.println(vehicle1.getName());
