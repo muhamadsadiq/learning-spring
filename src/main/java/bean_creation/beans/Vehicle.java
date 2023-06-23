@@ -4,6 +4,7 @@ package bean_creation.beans;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
 
 @Component
 public class Vehicle {
@@ -22,5 +23,12 @@ public class Vehicle {
     @PostConstruct
     public void initialize(){
         this.name = "G Class";
+    }
+    /*
+    * this method execute before destroy the bean
+    */
+    @PreDestroy
+    public void onDestroy(){
+        this.name = null;
     }
 }
