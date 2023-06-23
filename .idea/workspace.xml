@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6d0161c-dd50-457d-aed6-d452a953d393" name="Changes" comment="learning spring beans">
+    <list default="true" id="a6d0161c-dd50-457d-aed6-d452a953d393" name="Changes" comment="@Primary annotation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bean_creation/beans/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_creation/beans/Vehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bean_creation/config/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_creation/config/ProjectConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bean_creation/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_creation/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +94,8 @@
       <workItem from="1687107179474" duration="618000" />
       <workItem from="1687107814299" duration="62000" />
       <workItem from="1687107894988" duration="552000" />
-      <workItem from="1687257878236" duration="3246000" />
+      <workItem from="1687257878236" duration="3459000" />
+      <workItem from="1687508293603" duration="827000" />
     </task>
     <task id="LOCAL-00001" summary="learning spring beans">
       <created>1687260225348</created>
@@ -103,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687260225349</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="@Primary annotation">
+      <created>1687261564706</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1687261564706</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +130,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="learning spring beans" />
-    <option name="LAST_COMMIT_MESSAGE" value="learning spring beans" />
+    <MESSAGE value="@Primary annotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="@Primary annotation" />
   </component>
 </project>

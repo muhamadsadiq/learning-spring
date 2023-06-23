@@ -3,10 +3,15 @@ package bean_creation.config;
 
 import bean_creation.beans.Vehicle;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 
 @Configuration
+/*
+* tell spring to scan this package to create beans
+*/
+@ComponentScan(basePackages = "bean_creation.beans")
 public class ProjectConfig {
 
 
